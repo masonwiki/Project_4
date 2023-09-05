@@ -1,9 +1,10 @@
-
+// Creates and stores a conversation history
 let conversationHistory = [];
 function addToHistory(message) {
   conversationHistory.push(message);
 }
 
+// Displays the conversation in the chat container
 function displayConversation(index) {
   const chatMessages = document.getElementById('chat-messages');
   chatMessages.innerHTML = conversationHistory[index];
