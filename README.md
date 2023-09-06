@@ -13,6 +13,7 @@ Machine learning was done through the use of Pytorch and done within multiple py
 ## Libraries Used
 - SQLite (Data cleanup and storage)
 - Pytorch (ML/NLP using their integrated Nvidia CUDA GPU Processing)
+- NLTK (Word tokenizer that helps with NLP)
 - Scikit-Learn (Training and Testing data)
 - Flask (Website Development)
 
