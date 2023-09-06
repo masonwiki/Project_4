@@ -10,6 +10,7 @@ function displayConversation(index) {
   chatMessages.innerHTML = conversationHistory[index];
 }
 
+// Sets up event listeners for each conversation
 function loadConversationButtons() {
   const conversationList = document.getElementById('conversation-list');
 
@@ -36,6 +37,7 @@ userInput.addEventListener('keydown', function(event) {
   }
 });
 
+// Sends the user's message, updates the chat interface, and adds the message to the conversation history
 function sendMessage() {
   const userMessage = userInput.value;
   const userMessageElement = document.createElement('div');
